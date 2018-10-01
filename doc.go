@@ -23,12 +23,12 @@ This library provides a way to manage the lifecycle of service like components.
 
 Usage
 
-	$ go get -u bitbucket.org/azaher/runner
+	$ go get -u github.com/adzr/runner
 
 Then, import the package:
 
   import (
-    "bitbucket.org/azaher/runner"
+    "github.com/adzr/runner"
   )
 
 Finally, just implement the Runnable interface and pass it to the Run() function.
